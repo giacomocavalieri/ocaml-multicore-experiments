@@ -1,0 +1,4 @@
+(executable
+ (public_name multicore)
+ (name main)
+ (libraries multicore))
