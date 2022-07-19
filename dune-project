@@ -11,6 +11,7 @@
 
 (package
  (name multicore)
+ (allow_empty)
  (synopsis
   "Project to experiment with OCaml 5 zeroth release's support to multicore")
  (depends ocaml dune)

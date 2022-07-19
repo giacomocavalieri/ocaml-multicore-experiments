@@ -1,4 +1,34 @@
 (executable
- (public_name multicore)
- (name main)
+ (name fib)
+ (modules fib)
+ (libraries multicore))
+
+(executable
+ (name fib_twice)
+ (modules fib_twice)
+ (libraries multicore))
+
+(executable
+ (name fib_par)
+ (modules fib_par)
+ (libraries multicore))
+
+(executable
+ (name counter)
+ (modules counter)
+ (libraries multicore))
+
+(executable
+ (name msg_passing)
+ (modules msg_passing)
+ (libraries multicore))
+
+(executable
+ (name nb_atomic_stack)
+ (modules nb_atomic_stack)
+ (libraries multicore))
+
+(executable
+ (name b_atomic_stack)
+ (modules b_atomic_stack)
  (libraries multicore))

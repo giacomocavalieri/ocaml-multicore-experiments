@@ -4,8 +4,9 @@ synopsis:
   "Project to experiment with OCaml 5 zeroth release's support to multicore"
 authors: ["Giacomo Cavalieri"]
 tags: ["multicore"]
-homepage: "https://github.com/username/reponame"
-bug-reports: "https://github.com/username/reponame/issues"
+homepage: "https://github.com/giacomocavalieri/ocaml-multicore-experiments"
+bug-reports:
+  "https://github.com/giacomocavalieri/ocaml-multicore-experiments/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.3"}
@@ -25,4 +26,5 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://github.com/username/reponame.git"
+dev-repo:
+  "git+https://github.com/giacomocavalieri/ocaml-multicore-experiments.git"
