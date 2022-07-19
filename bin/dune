@@ -32,3 +32,23 @@
  (name b_atomic_stack)
  (modules b_atomic_stack)
  (libraries multicore))
+
+(executable
+ (name fib_domainslib)
+ (modules fib_domainslib)
+ (libraries multicore domainslib))
+
+(executable
+ (name tak_par)
+ (modules tak_par)
+ (libraries multicore domainslib))
+
+(executable
+ (name game_of_life)
+ (modules game_of_life)
+ (libraries multicore domainslib))
+
+(executable
+ (name mandelbrot)
+ (modules mandelbrot)
+ (libraries multicore domainslib))
